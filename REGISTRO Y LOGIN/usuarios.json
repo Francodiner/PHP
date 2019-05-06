@@ -1,0 +1,13 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "pepe",
+            "email": "pepe@pepe.com",
+            "username": "asd",
+            "password": "$2y$10$2zl6kRj3mQn1uVIkYUNNo.EGqVg7xrBGFHPA\/JmBkcrl06PFC9In2",
+            "foto": "img\/asd"
+        },
+
+    ]
+}
