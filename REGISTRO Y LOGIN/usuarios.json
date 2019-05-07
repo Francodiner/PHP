@@ -3,10 +3,31 @@
         {
             "id": 1,
             "nombre": "pepe",
-            "email": "pepe@pepe.com",
-            "username": "asd",
-            "password": "$2y$10$2zl6kRj3mQn1uVIkYUNNo.EGqVg7xrBGFHPA\/JmBkcrl06PFC9In2",
-            "foto": "img\/asd"
+            "email": "francodiner1232011@gmail.com",
+            "username": "asdasdasdfgsa",
+            "password": "$2y$10$jK6HqCOZ4vFEOAMncH3UiO2AWssLDYaJKw5aXBue6zeMl8\/aBNlZm",
+            "foto": "img\/asdasdasdfgsa",
+            "ciudad": "La Rioja"
+        },
+        {
+            "id": 2,
+            "nombre": "franco",
+            "email": "asd@asd.com",
+            "username": "francodiner",
+            "password": "$2y$10$CDkz2rFcGf\/gYWqcGEhifObXrGJFJlKaDYE3kESPdCsNOlolGEv3G",
+            "foto": "img\/francodiner",
+            "pais": "argentina",
+            "ciudad": "Acassuso"
+        },
+        {
+            "id": 3,
+            "nombre": "asd",
+            "email": "asd@asd.com",
+            "username": "asdasdasdfgsa",
+            "password": "$2y$10$bkhjiBhViFK3KWkUwd4\/Bud.KZzvz4WHjE.ECYWSsqdKAdL7Gjdvq",
+            "foto": "img\/asdasdasdfgsa",
+            "pais": "brasil",
+            "ciudad": "Acassuso"
         },
 
     ]

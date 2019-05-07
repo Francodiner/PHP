@@ -52,7 +52,9 @@ function armarUsuario(){//Se pasa por $_POST
     "email" =>  trim($_POST["email"]),
     "username" => trim($_POST["username"]),
     "password" => password_hash($_POST["password"],PASSWORD_DEFAULT),
-    "foto" => "img/".$_POST["username"]
+    "foto" => "img/".$_POST["username"],
+    "pais" => trim($_POST["pais"]),
+    "ciudad" => trim($_POST["ciudad"])
   ];
 }
 function guardarUsuario($usuario){

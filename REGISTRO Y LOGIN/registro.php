@@ -21,7 +21,15 @@
       $usuario = armarUsuario();
       guardarUsuario($usuario);
       echo "Usuario Registrado <br><br>";
-    }
+
+    //subir imagen;
+$ext = pathinfo($_FILES["avatar"]["name"], PATHINFO_EXTENSION);
+move_uploaded_file($_FILES["avatar"]["tmp_name"], "img/". $_POST["email"]. "." .$ext);
+
+//redirigimos a home
+        header("location:index.php");
+        exit;
+}
   }
 
 ?>
@@ -79,16 +87,16 @@
           <label for="" >Hobbies</label>
         </div>
         <div class="form-check form-check-inline col-xs-12 col-lg-3">
-          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="hobbies[sports]" value="option1">
-          <label class="form-check-label" for="inlineCheckbox1">Deportes</label>
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="sexo" value="option1" required>
+          <label class="form-check-label" for="inlineCheckbox1">Masculino</label>
         </div>
         <div class="form-check form-check-inline col-xs-12 col-lg-3">
-          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="hobbies[viaje]" value="option2">
-          <label class="form-check-label" for="inlineCheckbox2">Viajes</label>
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="sexo" value="option2" required>
+          <label class="form-check-label" for="inlineCheckbox2">Femenino</label>
         </div>
         <div class="form-check form-check-inline col-xs-12 col-lg-3">
-          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="hobbies[programming]" value="option3">
-          <label class="form-check-label" for="inlineCheckbox3">Programación</label>
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="sexo" value="option3">
+          <label class="form-check-label" for="inlineCheckbox3">Prefiero no decirlo</label>
         </div>
       </div>
       <div class="form-group form-row">
