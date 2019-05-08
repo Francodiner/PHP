@@ -1,0 +1,74 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "pepe",
+            "email": "pepe@gmail.com",
+            "username": "asdasd",
+            "password": "$2y$10$KLu515VRXaotNClz8d8\/g.WL\/QIv0KhPnCrd2KWFkogRXMt2w\/gmO",
+            "foto": "img\/asdasd",
+            "pais": "urugai",
+            "ciudad": "Acassuso"
+        },
+        {
+            "id": 2,
+            "nombre": "pepe",
+            "email": "pepe@gmail.com",
+            "username": "pepe",
+            "password": "$2y$10$\/e72kLKFCMdsYZxfteWbk.UUkdlBIWzrvdKvYZfjdXYD3GXOe4LuO",
+            "foto": "img\/pepe",
+            "pais": "urugai",
+            "ciudad": "Acassuso"
+        },
+        {
+            "id": 3,
+            "nombre": "pepe",
+            "email": "asd@asd.com",
+            "username": "asd",
+            "password": "$2y$10$3fff70qWa0e0\/DHglQrDf..X3pmt7hYwwDW56z4dmeeEe4xvCEjHG",
+            "foto": "img\/asd",
+            "pais": "argentina",
+            "ciudad": "Buenos Aires"
+        },
+        {
+            "id": 4,
+            "nombre": "franco",
+            "email": "pepe@gmail.com",
+            "username": "asd_",
+            "password": "$2y$10$e94SuC8LI.NmuEmO7EnKC.I4zNa07EFFZtZi70Y8a7wAqruclATkO",
+            "foto": "img\/asd_",
+            "pais": "argentina",
+            "ciudad": "Buenos Aires"
+        },
+        {
+            "id": 5,
+            "nombre": "franco",
+            "email": "asd@asd.com",
+            "username": "franco",
+            "password": "$2y$10$Uogt0zarDQzTxrCRjhNhQO76hZAmLyoejh0AlMLsmn2yGstCIEr26",
+            "foto": "img\/franco",
+            "pais": "argentina",
+            "ciudad": "Buenos Aires"
+        },
+        {
+            "id": 6,
+            "nombre": "pepe",
+            "email": "neyenchu@gmail.com",
+            "username": "12314",
+            "password": "$2y$10$fmNYWZMuc6dYsH5z\/l8CYekZ73323rLAdD8UndhEmshGopIaBQQWu",
+            "foto": "img\/12314",
+            "pais": "argentina",
+            "ciudad": "Buenos Aires"
+        },
+        {
+            "id": 7,
+            "nombre": "fran",
+            "email": "asd@asd.com",
+            "username": "asdasd",
+            "password": "$2y$10$C1W7ZYkonnMF6UpHTYV09.pK39edVb9BA4aIlEPFCqDid6L56EWG2",
+            "foto": "img\/asdasd",
+            "pais": "argentina",
+            "ciudad": "Buenos Aires"
+        }
+    ]
+}
